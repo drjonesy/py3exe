@@ -71,5 +71,6 @@ The program was adapted from the YouTube video:
 https://www.youtube.com/watch?v=gOV3AWiQclg by Technological
 
 ### Errors
-* Missing VCRUNTIME140.dll [SOLVED] (if you encounter issues concerning missing .dll files the refer to the syntax for line 25)
+* Missing VCRUNTIME140.dll [SOLVED] 
+(if you encounter issues concerning missing .dll files the refer to the syntax for line 25)
 
