@@ -1,5 +1,6 @@
 import os
 import sys
+import shutil
 
 rootDir = 'C:\\' # Windows
 # rootDir = '~'  # Linux
@@ -20,6 +21,8 @@ if os.path.isdir(filePath):
         path = cxFreezePath
         # Run python process of converting .py to .exe
         os.system("python " + path + " " + os.path.join(filePath, fileName))
+        # fix missing VCRUNTIME140.dll
+        shutil.copyfile(os.path.join(filePath, 'dll-files', 'vcruntime140.dll'), os.path.join(filePath, 'dist', 'vcruntime140.dll'))
     else:
         print("File: {} not found.".format(fileName))
 else:

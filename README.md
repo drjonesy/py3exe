@@ -1,4 +1,4 @@
-# py3exe - Convert Python3 .py to .exe
+# py3exe - Convert Python3 .py to .exe (ver 1.2)
 
 ### Required Pip Install. Choose either
 ```bash
@@ -62,9 +62,14 @@ Windows environments require the use of two back slashes. The first slash says t
 lib\ (folder)
 hello.exe (or your file name)
 python36.dll
+vcruntime140.dll
 ```
 The **lib** folder contains all the packages and python file needed to run your application on any environment.
 
 ### Thank You
 The program was adapted from the YouTube video:
 https://www.youtube.com/watch?v=gOV3AWiQclg by Technological
+
+### Errors
+* Missing VCRUNTIME140.dll [SOLVED] (if you encounter issues concerning missing .dll files the refer to the syntax for line 25)
+
