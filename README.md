@@ -64,3 +64,7 @@ hello.exe (or your file name)
 python36.dll
 ```
 The **lib** folder contains all the packages and python file needed to run your application on any environment.
+
+### Thank You
+The program was adapted from the YouTube video:
+https://www.youtube.com/watch?v=gOV3AWiQclg by Technological
