@@ -27,9 +27,9 @@ Windows environments require the use of two back slashes. The first slash says t
     ```
 4. Define the file path where the file located. 
 
-    > If you placed compile.py in the same directory as the file you are converting, such as...
+    > If you placed py3exe.py in the same directory as the file you are converting, such as...
     ```bash
-    compile.py
+    py3exe.py
     hello.py
     ```
     > Then you can use the default which is the current working directory **(recommended)**
@@ -52,7 +52,7 @@ Windows environments require the use of two back slashes. The first slash says t
 
 6. In your command window or terminal run the command:
     ```bash
-    python compile.py
+    python py3exe.py
     ```
 
 7. This will run through a process and create a folder called **dist**
