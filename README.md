@@ -70,10 +70,10 @@ The **lib** folder contains all the packages and python file needed to run your 
 The program was adapted from the YouTube video:
 https://www.youtube.com/watch?v=gOV3AWiQclg by Technological
 
-### Errors [SOLVED]
+### Possible Errors
 
 ```bash
-Missing VCRUNTIME140.dll 
+[SOLVED] missing VCRUNTIME140.dll
 ```
 (if you encounter issues concerning missing .dll files the refer to the syntax for line 25)
 
