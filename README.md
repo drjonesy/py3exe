@@ -57,6 +57,15 @@ Windows environments require the use of two back slashes. The first slash says t
 
 7. This will run through a process and create a folder called **dist**
 
+8. Once the dist folder is created. All the files located in the **add-to-root** directory sub-folders will be added to the root of the **dist** directory.
+    > Use the "add-to-root" for adding system compatability files to the root of the "dist" directory. The files must be placed in folder in the "add-to-root". Only one level deep is checked. 
+    ```
+    |-- add-to-root
+        |-- dll-files
+            |-- vcruntime140.dll 
+    ``` 
+    > This solves the error for missing VCRUNTIME140.dll 
+
 # "dist" Folder Structure
 ```bash
 lib\ (folder)
@@ -75,5 +84,4 @@ https://www.youtube.com/watch?v=gOV3AWiQclg by Technological
 ```bash
 [SOLVED] missing VCRUNTIME140.dll
 ```
-(if you encounter issues concerning missing .dll files then refer to the syntax for line 25)
 

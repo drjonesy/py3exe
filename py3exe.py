@@ -21,14 +21,19 @@ if os.path.isdir(filePath):
         path = cxFreezePath
         # Run python process of converting .py to .exe
         os.system("python " + path + " " + os.path.join(filePath, fileName))
-        # fix missing VCRUNTIME140.dll
-        shutil.copyfile(os.path.join(filePath, 'dll-files', 'vcruntime140.dll'), os.path.join(filePath, 'dist', 'vcruntime140.dll'))
+        # copy all files in add-to-root/dll-files/ into the dist folder
     else:
         print("File: {} not found.".format(fileName))
 else:
     print("Directory: {} not found.".format(filePath))
 
 
+# copy files from the folders in directory "add-to-root" into the "dist" directory once it is created
+addToRootPath = os.path.join(os.getcwd(), 'add-to-root')
+
+for folderName in os.listdir(addToRootPath):
+    for fileName in os.listdir(os.path.join(addToRootPath, folderName)):
+        shutil.copy(os.path.join(addToRootPath, folderName, fileName), os.path.join(os.getcwd(), 'dist', fileName))
 
 
 
