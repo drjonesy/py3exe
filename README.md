@@ -1,5 +1,7 @@
 # py3exe - Convert Python3 .py to .exe (ver 1.3)
 
+![](py3exe-logo.png)
+
 ### Required Pip Install. Choose either
 ```bash
 pip install cx_Freeze
