@@ -68,10 +68,10 @@ Windows environments require the use of two back slashes. The first slash says t
 
 # "dist" Folder Structure
 ```bash
-lib\ (folder)
-hello.exe (or your file name)
-python36.dll
-vcruntime140.dll
+|-- lib
+    |-- hello.exe (or your file name)
+    |-- python36.dll
+    |-- vcruntime140.dll
 ```
 The **lib** folder contains all the packages and python file needed to run your application on any environment.
 
