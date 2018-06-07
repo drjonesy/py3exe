@@ -68,7 +68,8 @@ Windows environments require the use of two back slashes. The first slash says t
 
 # "dist" Folder Structure
 ```
-|-- lib
+|-- dist
+    |-- lib
     |-- hello.exe (or your file name)
     |-- python36.dll
     |-- vcruntime140.dll
