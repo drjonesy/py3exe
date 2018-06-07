@@ -1,4 +1,4 @@
-# py3exe - Convert Python3 .py to .exe (ver 1.2)
+# py3exe - Convert Python3 .py to .exe (ver 1.3)
 
 ### Required Pip Install. Choose either
 ```bash
