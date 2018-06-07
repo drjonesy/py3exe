@@ -67,7 +67,7 @@ Windows environments require the use of two back slashes. The first slash says t
     > This solves the error for missing VCRUNTIME140.dll 
 
 # "dist" Folder Structure
-```bash
+```
 |-- lib
     |-- hello.exe (or your file name)
     |-- python36.dll
